@@ -1,0 +1,107 @@
+.app {
+    margin: 50px auto 0px;
+    padding: 30px 0px;
+    width: 50%;
+    border: 50px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: fit-content;
+}
+
+.header {
+    margin-bottom: 1.5rem;
+}
+
+.quote {
+    font-weight: bold;
+    padding: 8px 12px;
+    max-width: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.2), 2px 4px 4px hsl(220deg 60% 50% / 0.2), 4px 8px 8px hsl(220deg 60% 50% / 0.2), 8px 16px 16px hsl(220deg 60% 50% / 0.2),
+        16px 32px 32px hsl(220deg 60% 50% / 0.2);
+}
+
+.nos {
+    display: flex;
+    align-items: center;
+    background: rgb(19, 20, 19);
+    border-radius: 60%;
+    padding: 0 7px;
+    color: white;
+    font-weight: bold;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-left: 8px;
+}
+
+.sub-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list {
+    margin: 0.75rem 0px;
+    margin-bottom: 2rem;
+}
+.todo {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo:hover {
+    box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.2), 2px 4px 4px hsl(220deg 60% 50% / 0.2);
+}
+
+.todo-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 4px;
+}
+
+.todo-content > label {
+    margin-left: 5px;
+}
+
+.button {
+    background: rgb(241, 155, 155);
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.2), 2px 4px 4px hsl(220deg 60% 50% / 0.2), 4px 8px 8px hsl(220deg 60% 50% / 0.2), 8px 16px 16px hsl(220deg 60% 50% / 0.2);
+    padding: 2px 4px;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+.button:hover {
+    background: rgb(240, 86, 86);
+    opacity: 1;
+    color: white;
+}
+
+.add__phase {
+    margin-top: 1rem;
+}
+.input,
+select {
+    min-width: 255px;
+    padding: 5px 8px;
+    border-radius: 25px;
+}
+
+.no__phase {
+    text-align: center;
+}

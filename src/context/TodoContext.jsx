@@ -47,7 +47,7 @@ function TodoProvider({ children }) {
         if (titleId === -1) {
             const newTodos = todos.map((todo) => {
                 if (todo.title === title) {
-                    return todo.subItems.map((item) => {
+                    return todo.subItems.forEach((item) => {
                         if (item.text === subTodo.text) {
                             item.isCompleted = !item.isCompleted;
                         }
@@ -60,7 +60,7 @@ function TodoProvider({ children }) {
             if (todos[titleId].isCompleted) {
                 const newTodos = todos.map((todo) => {
                     if (todo.title === title) {
-                        return todo.subItems.map((item) => {
+                        return todo.subItems.forEach((item) => {
                             if (item.text === subTodo.text) {
                                 item.isCompleted = !item.isCompleted;
                             }
